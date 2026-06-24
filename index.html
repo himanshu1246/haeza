@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Meta Tags -->
+  <title>Haeza | Premium Women's Fashion</title>
+  <meta name="description" content="Haeza is a premium women's fashion brand offering elegant dresses, jewellery, bags, footwear, and beauty products. Discover our minimal and clean collections.">
+  <meta name="keywords" content="Haeza, women fashion, clothes, dresses, jewellery, bags, footwear, shoes, beauty, premium fashion, minimal style">
+  <link rel="canonical" href="https://yourdomain.com/">
+  
+  <!-- Open Graph / Twitter -->
+  <meta property="og:title" content="Haeza | Premium Women's Fashion">
+  <meta property="og:description" content="Discover elegant dresses, jewellery, bags, footwear, and beauty products.">
+  <meta property="og:image" content="https://yourdomain.com/assets/images/model/Shin%20Ryujin.jpg">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/x-icon" href="assets/favicons/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
+
+  <!-- Preconnect and CSS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" href="assets/video/background%20video.mp4" as="video">
+  
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/home.css">
+
+  <!-- GSAP Library via CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer></script>
+  
+  <!-- Custom JS -->
+  <script src="js/products.js" defer></script>
+  <script src="js/cart.js" defer></script>
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="header-left">
+        <!-- Desktop Nav -->
+        <nav class="nav-desktop">
+          <ul>
+            <li><a href="clothes.html">Clothes</a></li>
+            <li><a href="jewellery.html">Jewellery</a></li>
+            <li><a href="bags.html">Bags</a></li>
+            <li><a href="shoes.html">Shoes</a></li>
+            <li><a href="beauty.html">Beauty</a></li>
+            <li><a href="perfume.html">Perfume</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <!-- Mobile Nav Toggle -->
+        <button class="nav-toggle" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <!-- Search Icon -->
+        <div class="search-container">
+          <button class="search-toggle" aria-label="Toggle Search">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+            </svg>
+          </button>
+          <div class="search-input-wrapper">
+            <input type="text" id="searchInput" placeholder="Search products..." aria-label="Search products">
+            <div id="searchResults" class="search-results"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="header-center">
+        <a href="index.html" class="logo">Haeza</a>
+      </div>
+      
+      <div class="header-right header-actions">
+        <!-- Wishlist Icon -->
+        <a href="wishlist.html" class="wishlist-icon-wrapper" aria-label="Open Wishlist">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+          <span class="wishlist-badge" style="display: none;">0</span>
+        </a>
+        <!-- Cart Icon -->
+        <div class="cart-icon-wrapper" aria-label="Open Cart" tabindex="0" role="button" aria-haspopup="dialog">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="24" height="24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+          </svg>
+          <span class="cart-badge" style="display: none;">0</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Nav Drawer -->
+  <div class="nav-overlay"></div>
+  <nav class="nav-mobile">
+    <ul>
+      <li><a href="clothes.html">Clothes</a></li>
+      <li><a href="jewellery.html">Jewellery</a></li>
+      <li><a href="bags.html">Bags</a></li>
+      <li><a href="shoes.html">Shoes</a></li>
+      <li><a href="beauty.html">Beauty</a></li>
+            <li><a href="perfume.html">Perfume</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Cart Drawer -->
+  <div class="cart-overlay"></div>
+  <div class="cart-drawer">
+    <div class="cart-header">
+      <h2>Your Cart</h2>
+      <button class="cart-close-btn" aria-label="Close cart">&times;</button>
+    </div>
+    <div class="cart-items">
+      <!-- Items dynamically injected here -->
+    </div>
+    <div class="cart-footer">
+      <div class="cart-total">
+        <span>Subtotal</span>
+        <span class="cart-total-amount">$0.00</span>
+      </div>
+      <button class="btn checkout-btn">Send Enquiry</button>
+    </div>
+  </div>
+
+  <main class="main-content">
+    
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-video-wrapper">
+        <video class="hero-video" autoplay muted loop playsinline poster="assets/images/model/Shin%20Ryujin.jpg">
+          <source src="assets/video/background%20video.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <h1 class="hero-title" style="transform: translateY(20px); opacity: 0;">Haeza</h1>
+        <p class="hero-subtitle" style="transform: translateY(20px); opacity: 0;">Redefining Elegance</p>
+        <a href="#explore" class="btn" style="opacity:0; animation: fadeIn 1s 2s forwards;">Explore Collection</a>
+      </div>
+    </section>
+
+    <style>
+      @keyframes fadeIn { to { opacity: 1; } }
+    </style>
+
+    <!-- Brand Intro -->
+    <section id="explore" class="section intro">
+      <div class="container intro-grid">
+        <div class="intro-image">
+          <img src="assets/images/model/Shin%20Ryujin.jpg" alt="Haeza Model" loading="lazy">
+        </div>
+        <div class="intro-text">
+          <h2>Timeless. Confident. Pure.</h2>
+          <p>Welcome to Haeza. We create premium fashion designed for the modern woman who values elegant minimalism and uncompromising quality.</p>
+          <p>From curated dresses and exquisite jewellery to fine leather goods and beauty essentials, every piece in our collection is crafted to inspire confidence.</p>
+          <a href="clothes.html" class="btn">Shop The Look</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Categories Grid -->
+    <section class="section categories">
+      <div class="container">
+        <div class="section-header text-center">
+          <h2 class="section-title">The Collections</h2>
+        </div>
+        <div class="category-grid">
+          
+          <a href="clothes.html" class="category-card">
+            <img src="assets/images/dress/3.jpg" alt="Dresses Collection" loading="lazy">
+            <div class="category-info">
+              <h3>Clothes</h3>
+            </div>
+          </a>
+
+          <a href="jewellery.html" class="category-card">
+            <img src="assets/images/jewellery/Midweek%20Gold_%20Layered%20Necklaces,%20Dainty%20Rings%20&%20Everyday%20Fine%20Jewellery.jpg" alt="Jewellery Collection" loading="lazy">
+            <div class="category-info">
+              <h3>Jewellery</h3>
+            </div>
+          </a>
+
+          <a href="bags.html" class="category-card">
+            <img src="assets/images/bag/Luxury%20Pink%20Handbag%20for%20Elegant%20Women.jpg" alt="Bags Collection" loading="lazy">
+            <div class="category-info">
+              <h3>Bags</h3>
+            </div>
+          </a>
+
+                    <a href="shoes.html" class="category-card">
+            <img src="assets/images/footware/CHRISTIAN%20LOUBOUTIN%20Movida%20130%20Suede%20Ankle%20Boots%20-%20Black.jpg" alt="Footwear Collection" loading="lazy">
+            <div class="category-info">
+              <h3>Shoes</h3>
+            </div>
+          </a>
+
+          <a href="beauty.html" class="category-card">
+            <img src="assets/images/beauty/High-Shine%20Lip%20Gloss%20Aesthetic%20_%20Glossy%20Makeup%20Inspiration.jpg" alt="Beauty Collection" loading="lazy">
+            <div class="category-info">
+              <h3>Beauty</h3>
+            </div>
+          </a>
+
+          <a href="perfume.html" class="category-card">
+            <img src="assets/images/perfume/Louis%20Vuitton%20Fleur%20du%20D%C3%A9sert.jpg" alt="Perfume Collection" loading="lazy">
+            <div class="category-info">
+              <h3>Perfume</h3>
+            </div>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <a href="index.html" class="logo">Haeza</a>
+        <div class="footer-links">
+          <a href="clothes.html">Clothes</a>
+          <a href="jewellery.html">Jewellery</a>
+          <a href="bags.html">Bags</a>
+          <a href="shoes.html">Shoes</a>
+          <a href="beauty.html">Beauty</a>
+          <a href="perfume.html">Perfume</a>
+          <a href="contact.html">Contact Us</a>
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="terms.html">Terms & Conditions</a>
+        </div>
+        <div class="footer-copy">
+          &copy; 2026 Haeza. All rights reserved.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

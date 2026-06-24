@@ -1,0 +1,112 @@
+/* contact.css */
+.contact-section {
+  padding: var(--spacing-xl) 0;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--spacing-lg);
+}
+
+@media (min-width: 768px) {
+  .contact-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: var(--spacing-xl);
+  }
+}
+
+.contact-info h2 {
+  font-weight: 300;
+  margin-bottom: var(--spacing-md);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.contact-info p {
+  margin-bottom: var(--spacing-sm);
+  font-size: 1.1rem;
+}
+
+.contact-details {
+  margin-top: var(--spacing-lg);
+}
+
+.contact-details-item {
+  margin-bottom: var(--spacing-sm);
+}
+
+.contact-details-item h4 {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.25rem;
+}
+
+.contact-details-item p {
+  font-size: 1rem;
+  color: var(--color-text);
+}
+
+.contact-form {
+  background-color: var(--color-surface);
+  padding: var(--spacing-md);
+  border: 1px solid var(--color-border);
+}
+
+@media (min-width: 768px) {
+  .contact-form {
+    padding: var(--spacing-lg);
+  }
+}
+
+.form-group {
+  margin-bottom: var(--spacing-md);
+}
+
+.form-group label {
+  display: block;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.5rem;
+  color: var(--color-secondary);
+}
+
+.form-control {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid var(--color-border);
+  background-color: var(--color-bg);
+  font-family: var(--font-main);
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: var(--color-text);
+}
+
+textarea.form-control {
+  resize: vertical;
+  min-height: 150px;
+}
+
+.form-message {
+  margin-top: var(--spacing-sm);
+  padding: var(--spacing-sm);
+  font-size: 0.9rem;
+}
+
+.form-message.success {
+  background-color: rgba(30, 142, 62, 0.1);
+  color: var(--color-success);
+  border: 1px solid var(--color-success);
+}
+
+.form-message.error {
+  background-color: rgba(217, 48, 37, 0.1);
+  color: var(--color-error);
+  border: 1px solid var(--color-error);
+}
