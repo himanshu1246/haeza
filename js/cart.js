@@ -9,7 +9,7 @@ function saveCart() {
 }
 
 function addToCart(product) {
-  const existingItem = cart.find(item => item.id === product.id);
+  const existingItem = cart.find(item => item.id === product.id && (item.size || null) === (product.size || null));
   if (existingItem) {
     existingItem.quantity += 1;
   } else {
@@ -19,17 +19,17 @@ function addToCart(product) {
   openCartDrawer();
 }
 
-function removeFromCart(productId) {
-  cart = cart.filter(item => item.id !== productId);
+function removeFromCart(productId, size) {
+  cart = cart.filter(item => !(item.id === productId && (item.size || null) === (size || null)));
   saveCart();
 }
 
-function updateQuantity(productId, delta) {
-  const item = cart.find(item => item.id === productId);
+function updateQuantity(productId, size, delta) {
+  const item = cart.find(item => item.id === productId && (item.size || null) === (size || null));
   if (item) {
     item.quantity += delta;
     if (item.quantity <= 0) {
-      removeFromCart(productId);
+      removeFromCart(productId, size);
     } else {
       saveCart();
     }
@@ -55,7 +55,7 @@ function renderCartDrawer() {
 
   if (cart.length === 0) {
     cartItemsContainer.innerHTML = '<p class="empty-cart-msg">Your cart is empty.</p>';
-    if (cartTotal) cartTotal.textContent = '$0.00';
+    if (cartTotal) cartTotal.textContent = '₹0.00';
     return;
   }
 
@@ -63,19 +63,20 @@ function renderCartDrawer() {
 
   cart.forEach(item => {
     total += item.price * item.quantity;
+    const sizeStr = item.size ? ` (Size: ${item.size})` : '';
 
     const itemEl = document.createElement('div');
     itemEl.className = 'cart-item';
     itemEl.innerHTML = `
       <img src="${item.image}" alt="${item.name}">
       <div class="cart-item-details">
-        <h4>${item.name}</h4>
-        <p>$${item.price.toFixed(2)}</p>
+        <h4>${item.name}${sizeStr}</h4>
+        <p>₹${item.price.toFixed(2)}</p>
         <div class="cart-item-actions">
-          <button class="qty-btn minus" data-id="${item.id}">-</button>
+          <button class="qty-btn minus" data-id="${item.id}" data-size="${item.size || ''}">-</button>
           <span>${item.quantity}</span>
-          <button class="qty-btn plus" data-id="${item.id}">+</button>
-          <button class="remove-btn" data-id="${item.id}">Remove</button>
+          <button class="qty-btn plus" data-id="${item.id}" data-size="${item.size || ''}">+</button>
+          <button class="remove-btn" data-id="${item.id}" data-size="${item.size || ''}">Remove</button>
         </div>
       </div>
     `;
@@ -83,18 +84,18 @@ function renderCartDrawer() {
   });
 
   if (cartTotal) {
-    cartTotal.textContent = '$' + total.toFixed(2);
+    cartTotal.textContent = '₹' + total.toFixed(2);
   }
 
   // Attach event listeners for dynamically created buttons
   document.querySelectorAll('.qty-btn.minus').forEach(btn => {
-    btn.addEventListener('click', (e) => updateQuantity(e.target.dataset.id, -1));
+    btn.addEventListener('click', (e) => updateQuantity(e.target.dataset.id, e.target.dataset.size || null, -1));
   });
   document.querySelectorAll('.qty-btn.plus').forEach(btn => {
-    btn.addEventListener('click', (e) => updateQuantity(e.target.dataset.id, 1));
+    btn.addEventListener('click', (e) => updateQuantity(e.target.dataset.id, e.target.dataset.size || null, 1));
   });
   document.querySelectorAll('.remove-btn').forEach(btn => {
-    btn.addEventListener('click', (e) => removeFromCart(e.target.dataset.id));
+    btn.addEventListener('click', (e) => removeFromCart(e.target.dataset.id, e.target.dataset.size || null));
   });
 }
 
@@ -115,7 +116,8 @@ function proceedToEnquiry() {
   
   let enquiryText = "Hi, I am interested in the following items:\\n\\n";
   cart.forEach(item => {
-    enquiryText += `- ${item.quantity}x ${item.name} ($${item.price.toFixed(2)} each)\\n`;
+    const sizeStr = item.size ? ` [Size: ${item.size}]` : '';
+    enquiryText += `- ${item.quantity}x ${item.name}${sizeStr} (₹${item.price.toFixed(2)} each)\\n`;
   });
   
   // Store the message temporarily in sessionStorage so the contact page can grab it

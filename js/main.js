@@ -130,7 +130,7 @@ function renderSearchResults(results, container) {
       <img src="${product.image}" alt="${product.name}">
       <div>
         <h4>${product.name}</h4>
-        <p>$${product.price.toFixed(2)}</p>
+        <p>₹${product.price.toFixed(2)}</p>
       </div>
     `;
     container.appendChild(a);
@@ -160,7 +160,7 @@ function renderCategoryGrid() {
       }
     });
     
-    sortSelect.addEventListener('change', renderCategoryGrid);
+    sortSelect.onchange = renderCategoryGrid;
   }
 
   grid.innerHTML = '';
@@ -182,7 +182,7 @@ function renderCategoryGrid() {
         <a href="product.html?id=${product.id}" class="product-title-link">
           <h3 class="product-title">${product.name}</h3>
         </a>
-        <p class="product-price">$${product.price.toFixed(2)}</p>
+        <p class="product-price">₹${product.price.toFixed(2)}</p>
       </div>
     `;
     grid.appendChild(item);
@@ -304,6 +304,71 @@ document.addEventListener('DOMContentLoaded', () => {
     if (introTexts.length > 0) gsap.from(introTexts, { y: 30, opacity: 0, duration: 1, stagger: 0.2, scrollTrigger: { trigger: ".intro-text", start: "top 85%" }});
     
     const categoryCards = document.querySelectorAll('.category-card');
-    if (categoryCards.length > 0) gsap.from(categoryCards, { y: 50, opacity: 0, duration: 0.8, stagger: 0.15, scrollTrigger: { trigger: ".categories", start: "top 80%" }});
+    if (categoryCards.length > 0) gsap.from(categoryCards, { y: 50, opacity: 0, duration: 1, stagger: 0.15, scrollTrigger: { trigger: ".categories", start: "top 80%" }});
   }
+
+  /* --- Newsletter Logic --- */
+  const newsletterForm = document.getElementById('newsletterForm');
+  if (newsletterForm) {
+    newsletterForm.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const email = document.getElementById('newsletterEmail').value;
+      const submitBtn = document.getElementById('newsletterSubmitBtn');
+      const messageDiv = document.getElementById('newsletterMessage');
+      
+      submitBtn.textContent = 'Subscribing...';
+      submitBtn.disabled = true;
+
+      const endpoint = (typeof SHEET_ENDPOINT !== 'undefined') ? SHEET_ENDPOINT : "PASTE_YOUR_APPS_SCRIPT_URL_HERE";
+
+      if (endpoint === "PASTE_YOUR_APPS_SCRIPT_URL_HERE") {
+        setTimeout(() => {
+          messageDiv.textContent = 'Test mode: Subscribed successfully!';
+          messageDiv.className = 'newsletter-message success';
+          newsletterForm.reset();
+          submitBtn.textContent = 'Subscribe';
+          submitBtn.disabled = false;
+        }, 1000);
+        return;
+      }
+
+      try {
+        const data = { email: email, source: 'newsletter' };
+        await fetch(endpoint, {
+          method: 'POST',
+          mode: 'no-cors',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(data)
+        });
+        messageDiv.textContent = 'Thank you for subscribing!';
+        messageDiv.className = 'newsletter-message success';
+        newsletterForm.reset();
+      } catch (error) {
+        messageDiv.textContent = 'Error subscribing. Please try again.';
+        messageDiv.className = 'newsletter-message error';
+      } finally {
+        submitBtn.textContent = 'Subscribe';
+        submitBtn.disabled = false;
+      }
+    });
+  }
+
+  /* --- Cookie / LocalStorage Notice --- */
+  if (!localStorage.getItem('haeza_cookie_consent')) {
+    const banner = document.createElement('div');
+    banner.className = 'cookie-banner';
+    banner.innerHTML = `
+      <div class="cookie-content">
+        <p>We use localStorage to save your cart and wishlist. <a href="privacy.html" style="text-decoration:underline;">Learn more</a>.</p>
+        <button id="acceptCookies" class="btn-cookie">Got it</button>
+      </div>
+    `;
+    document.body.appendChild(banner);
+    
+    document.getElementById('acceptCookies').addEventListener('click', () => {
+      localStorage.setItem('haeza_cookie_consent', 'true');
+      banner.style.display = 'none';
+    });
+  }
+
 });

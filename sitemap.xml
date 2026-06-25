@@ -21,7 +21,12 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://haeza.com/footwear.html</loc>
+    <loc>https://haeza.com/shoes.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://haeza.com/perfume.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

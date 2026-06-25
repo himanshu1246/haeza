@@ -3,7 +3,7 @@ const haezaProducts = [
   {
     id: "dr-001",
     name: "Minimalist Silk Dress",
-    price: 120.00,
+    price: 220000.00,
     category: "clothes",
     image: "assets/images/dress/3.jpg",
     images: ["assets/images/dress/3.jpg"],
@@ -13,7 +13,7 @@ const haezaProducts = [
   {
     id: "dr-002",
     name: "Effortless Cotton Dress",
-    price: 85.00,
+    price: 185000.00,
     category: "clothes",
     image: "assets/images/dress/Effortless%20college%20girl%20outfit.jpg",
     images: ["assets/images/dress/Effortless%20college%20girl%20outfit.jpg"],
@@ -23,7 +23,7 @@ const haezaProducts = [
   {
     id: "dr-003",
     name: "Elegant Blazer Dress",
-    price: 150.00,
+    price: 250000.00,
     category: "clothes",
     image: "assets/images/dress/SHAOYEYAN%20Elegant%20Blazer%20and%20Skirt__New%20products%20added%20daily%20•%20Shop%20link%20in%20bio%20🌍%20International%20shipping%20•%202-week%20delivery%20•%20Subscribe%20to%20our%20email%20list%20for%2010%25%20off!.jpg",
     images: ["assets/images/dress/SHAOYEYAN%20Elegant%20Blazer%20and%20Skirt__New%20products%20added%20daily%20•%20Shop%20link%20in%20bio%20🌍%20International%20shipping%20•%202-week%20delivery%20•%20Subscribe%20to%20our%20email%20list%20for%2010%25%20off!.jpg"],
@@ -33,7 +33,7 @@ const haezaProducts = [
   {
     id: "dr-004",
     name: "Classic Twist Dress",
-    price: 110.00,
+    price: 210000.00,
     category: "clothes",
     image: "assets/images/dress/Classic%20with%20a%20twist%20—%20today’s%20look%20from%20Rovente%20gives%20me%20that%20perfect%20mix%20of%20chic%20and%20effortless%20cool___%23PINKPARKS%20%23RoventeStyle%20%23StreetChic%20%23EffortlessCool%20%23OOTDinspo.jpg",
     images: ["assets/images/dress/Classic%20with%20a%20twist%20—%20today’s%20look%20from%20Rovente%20gives%20me%20that%20perfect%20mix%20of%20chic%20and%20effortless%20cool___%23PINKPARKS%20%23RoventeStyle%20%23StreetChic%20%23EffortlessCool%20%23OOTDinspo.jpg"],
@@ -43,7 +43,7 @@ const haezaProducts = [
   {
     id: "dr-005",
     name: "Summer Breeze Dress",
-    price: 95.00,
+    price: 195000.00,
     category: "clothes",
     image: "assets/images/dress/Roberta%20Pardo%20look.jpg",
     images: ["assets/images/dress/Roberta%20Pardo%20look.jpg"],
@@ -53,7 +53,7 @@ const haezaProducts = [
   {
     id: "dr-006",
     name: "Evening Gown",
-    price: 180.00,
+    price: 280000.00,
     category: "clothes",
     image: "assets/images/dress/download%20(3).jpg",
     images: ["assets/images/dress/download%20(3).jpg"],
@@ -63,7 +63,7 @@ const haezaProducts = [
   {
     id: "dr-007",
     name: "Y2K Mini Dress",
-    price: 75.00,
+    price: 175000.00,
     category: "clothes",
     image: "assets/images/dress/y2k%20fashion.jpg",
     images: ["assets/images/dress/y2k%20fashion.jpg"],
@@ -73,7 +73,7 @@ const haezaProducts = [
   {
     id: "dr-008",
     name: "Stunning Fashion Dress",
-    price: 135.00,
+    price: 235000.00,
     category: "clothes",
     image: "assets/images/dress/11%20Insider%20Secrets%20Revealing%20the%20Truth%20Behind%20Stunning%20Fashion%20Photography.jpg",
     images: ["assets/images/dress/11%20Insider%20Secrets%20Revealing%20the%20Truth%20Behind%20Stunning%20Fashion%20Photography.jpg"],
@@ -83,7 +83,7 @@ const haezaProducts = [
   {
     id: "dr-009",
     name: "Royal Elite Dress",
-    price: 165.00,
+    price: 265000.00,
     category: "clothes",
     image: "assets/images/dress/Astrid%20Clifford%20%E2%9C%A9%20Royal%20Elite%20Series.jpg",
     images: ["assets/images/dress/Astrid%20Clifford%20%E2%9C%A9%20Royal%20Elite%20Series.jpg"],
@@ -93,7 +93,7 @@ const haezaProducts = [
   {
     id: "dr-010",
     name: "Lamxiaa Signature Dress",
-    price: 130.00,
+    price: 230000.00,
     category: "clothes",
     image: "assets/images/dress/ID_%20lamxiaa.jpg",
     images: ["assets/images/dress/ID_%20lamxiaa.jpg"],
@@ -103,7 +103,7 @@ const haezaProducts = [
   {
     id: "dr-011",
     name: "Nawon Evening Gown",
-    price: 210.00,
+    price: 310000.00,
     category: "clothes",
     image: "assets/images/dress/NAWON.jpg",
     images: ["assets/images/dress/NAWON.jpg"],
@@ -113,7 +113,7 @@ const haezaProducts = [
   {
     id: "dr-012",
     name: "Modern Chic Dress",
-    price: 115.00,
+    price: 215000.00,
     category: "clothes",
     image: "assets/images/dress/download%20(1).jpg",
     images: ["assets/images/dress/download%20(1).jpg"],
@@ -123,7 +123,7 @@ const haezaProducts = [
   {
     id: "dr-013",
     name: "Sleek Black Dress",
-    price: 140.00,
+    price: 240000.00,
     category: "clothes",
     image: "assets/images/dress/download%20(2).jpg",
     images: ["assets/images/dress/download%20(2).jpg"],
@@ -133,7 +133,7 @@ const haezaProducts = [
   {
     id: "dr-014",
     name: "Contemporary Layered Dress",
-    price: 160.00,
+    price: 260000.00,
     category: "clothes",
     image: "assets/images/dress/download%20(4).jpg",
     images: ["assets/images/dress/download%20(4).jpg"],
@@ -143,7 +143,7 @@ const haezaProducts = [
   {
     id: "dr-015",
     name: "Minimalist Midi",
-    price: 95.00,
+    price: 195000.00,
     category: "clothes",
     image: "assets/images/dress/download%20(5).jpg",
     images: ["assets/images/dress/download%20(5).jpg"],
@@ -153,7 +153,7 @@ const haezaProducts = [
   {
     id: "dr-016",
     name: "Aesthetic Summer Dress",
-    price: 85.00,
+    price: 185000.00,
     category: "clothes",
     image: "assets/images/dress/download.jpg",
     images: ["assets/images/dress/download.jpg"],
@@ -163,7 +163,7 @@ const haezaProducts = [
   {
     id: "dr-017",
     name: "Office Lady Blazer Dress",
-    price: 155.00,
+    price: 255000.00,
     category: "clothes",
     image: "assets/images/dress/%F0%9D%90%8E%F0%9D%90%9F%F0%9D%90%9F%F0%9D%90%A2%F0%9D%90%9C%F0%9D%90%9E%20%F0%9D%90%8B%F0%9D%90%9A%F0%9D%90%9D%F0%9D%90%B2_C%C3%B3%20l%C3%A0m%20vi%E1%BB%87c%20nhi%E1%BB%81u%20th%C3%AC%20c%C5%A9ng%20h%C3%A3y%20nh%E1%BB%9B%20b%E1%BA%A3o%20v%E1%BB%87%20s%E1%BB%A9c%20kh%E1%BB%8Fe%20nh%C3%A9.jpg",
     images: ["assets/images/dress/%F0%9D%90%8E%F0%9D%90%9F%F0%9D%90%9F%F0%9D%90%A2%F0%9D%90%9C%F0%9D%90%9E%20%F0%9D%90%8B%F0%9D%90%9A%F0%9D%90%9D%F0%9D%90%B2_C%C3%B3%20l%C3%A0m%20vi%E1%BB%87c%20nhi%E1%BB%81u%20th%C3%AC%20c%C5%A9ng%20h%C3%A3y%20nh%E1%BB%9B%20b%E1%BA%A3o%20v%E1%BB%87%20s%E1%BB%A9c%20kh%E1%BB%8Fe%20nh%C3%A9.jpg"],
@@ -175,7 +175,7 @@ const haezaProducts = [
   {
     id: "jw-001",
     name: "Layered Gold Necklaces",
-    price: 250.00,
+    price: 350000.00,
     category: "jewellery",
     image: "assets/images/jewellery/Midweek%20Gold_%20Layered%20Necklaces,%20Dainty%20Rings%20&%20Everyday%20Fine%20Jewellery.jpg",
     images: ["assets/images/jewellery/Midweek%20Gold_%20Layered%20Necklaces,%20Dainty%20Rings%20&%20Everyday%20Fine%20Jewellery.jpg"],
@@ -185,7 +185,7 @@ const haezaProducts = [
   {
     id: "jw-002",
     name: "Abstract Gold Bracelet",
-    price: 180.00,
+    price: 280000.00,
     category: "jewellery",
     image: "assets/images/jewellery/High%20gold%20bracelet,%20on%20hand%20in%20shape%20abstract.jpg",
     images: ["assets/images/jewellery/High%20gold%20bracelet,%20on%20hand%20in%20shape%20abstract.jpg"],
@@ -195,7 +195,7 @@ const haezaProducts = [
   {
     id: "jw-003",
     name: "Diamond Essence Ring",
-    price: 320.00,
+    price: 420000.00,
     category: "jewellery",
     image: "assets/images/jewellery/Entre%20líneas%20puras%20y%20un%20brillo%20único,%20nuestros%20diamantes%20dialogan%20con%20el%20cuerpo%20con%20una%20naturalidad%20que%20trasciende_%20Auténticos%20fragmentos%20de%20luz%20que%20acompañan%20la%20actitud%20de%20cada%20persona%20y%20revelan%20la%20belleza%20más%20esencial_.jpg",
     images: ["assets/images/jewellery/Entre%20líneas%20puras%20y%20un%20brillo%20único,%20nuestros%20diamantes%20dialogan%20con%20el%20cuerpo%20con%20una%20naturalidad%20que%20trasciende_%20Auténticos%20fragmentos%20de%20luz%20que%20acompañan%20la%20actitud%20de%20cada%20persona%20y%20revelan%20la%20belleza%20más%20esencial_.jpg"],
@@ -205,7 +205,7 @@ const haezaProducts = [
   {
     id: "jw-004",
     name: "Contemporary Chain Set",
-    price: 140.00,
+    price: 240000.00,
     category: "jewellery",
     image: "assets/images/jewellery/JYARSH%20-Stainless%20Steel%20Gold-Plated%20Contemporary%20Layered%20Chain%20Necklace%20Set.jpg",
     images: ["assets/images/jewellery/JYARSH%20-Stainless%20Steel%20Gold-Plated%20Contemporary%20Layered%20Chain%20Necklace%20Set.jpg"],
@@ -215,7 +215,7 @@ const haezaProducts = [
   {
     id: "jw-005",
     name: "Swarovski Crystal Earrings",
-    price: 290.00,
+    price: 390000.00,
     category: "jewellery",
     image: "assets/images/jewellery/@calvinpausania%20for%20@swarovski__@honeyloveclub%20is%20a%20creative%20brand%20studio%20dedicated%20to%20connecting%20and%20inspiring%20visual%20artists__%23editorial%20%23jewelry%20%23artdirection%20%23photography%20%23visualstorytelling%20%23campaign%20%23magazine%20%23jewe.jpg",
     images: ["assets/images/jewellery/@calvinpausania%20for%20@swarovski__@honeyloveclub%20is%20a%20creative%20brand%20studio%20dedicated%20to%20connecting%20and%20inspiring%20visual%20artists__%23editorial%20%23jewelry%20%23artdirection%20%23photography%20%23visualstorytelling%20%23campaign%20%23magazine%20%23jewe.jpg"],
@@ -225,7 +225,7 @@ const haezaProducts = [
   {
     id: "jw-006",
     name: "Cartier Style Bracelet",
-    price: 450.00,
+    price: 550000.00,
     category: "jewellery",
     image: "assets/images/jewellery/AI%20•%20предметная%20съемка%20•%20браслет%20Cartier%20•%20nano%20banana.jpg",
     images: ["assets/images/jewellery/AI%20•%20предметная%20съемка%20•%20браслет%20Cartier%20•%20nano%20banana.jpg"],
@@ -235,7 +235,7 @@ const haezaProducts = [
   {
     id: "jw-007",
     name: "Minimal Silver Ring",
-    price: 110.00,
+    price: 210000.00,
     category: "jewellery",
     image: "assets/images/jewellery/download%20(2).jpg",
     images: ["assets/images/jewellery/download%20(2).jpg"],
@@ -245,7 +245,7 @@ const haezaProducts = [
   {
     id: "jw-008",
     name: "Gold Chain Link Necklace",
-    price: 195.00,
+    price: 295000.00,
     category: "jewellery",
     image: "assets/images/jewellery/download%20(1).jpg",
     images: ["assets/images/jewellery/download%20(1).jpg"],
@@ -255,7 +255,7 @@ const haezaProducts = [
   {
     id: "jw-009",
     name: "Classic Diamond Studs",
-    price: 350.00,
+    price: 450000.00,
     category: "jewellery",
     image: "assets/images/jewellery/download%20(3).jpg",
     images: ["assets/images/jewellery/download%20(3).jpg"],
@@ -265,7 +265,7 @@ const haezaProducts = [
   {
     id: "jw-010",
     name: "Pearl Drop Earrings",
-    price: 180.00,
+    price: 280000.00,
     category: "jewellery",
     image: "assets/images/jewellery/download%20(4).jpg",
     images: ["assets/images/jewellery/download%20(4).jpg"],
@@ -275,7 +275,7 @@ const haezaProducts = [
   {
     id: "jw-011",
     name: "Statement Cuff Bracelet",
-    price: 210.00,
+    price: 310000.00,
     category: "jewellery",
     image: "assets/images/jewellery/download.jpg",
     images: ["assets/images/jewellery/download.jpg"],
@@ -285,7 +285,7 @@ const haezaProducts = [
   {
     id: "jw-012",
     name: "Timeless Platinum Ring",
-    price: 450.00,
+    price: 550000.00,
     category: "jewellery",
     image: "assets/images/jewellery/%E4%BD%95%E6%AD%B3%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%A6%E3%82%82%E3%80%81%E3%82%B8%E3%83%A5%E3%82%A8%E3%83%AA%E3%83%BC%E3%81%8C%E5%A5%BD%E3%81%8D%EF%BC%81.jpg",
     images: ["assets/images/jewellery/%E4%BD%95%E6%AD%B3%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%A6%E3%82%82%E3%80%81%E3%82%B8%E3%83%A5%E3%82%A8%E3%83%AA%E3%83%BC%E3%81%8C%E5%A5%BD%E3%81%8D%EF%BC%81.jpg"],
@@ -297,7 +297,7 @@ const haezaProducts = [
   {
     id: "bg-001",
     name: "Luxury Pink Handbag",
-    price: 220.00,
+    price: 320000.00,
     category: "bags",
     image: "assets/images/bag/Luxury%20Pink%20Handbag%20for%20Elegant%20Women.jpg",
     images: ["assets/images/bag/Luxury%20Pink%20Handbag%20for%20Elegant%20Women.jpg"],
@@ -307,7 +307,7 @@ const haezaProducts = [
   {
     id: "bg-002",
     name: "Harlee Embroidered Shoulder Bag",
-    price: 180.00,
+    price: 280000.00,
     category: "bags",
     image: "assets/images/bag/Harlee%20Embroidered%20Shoulder%20Bag%20-%20Pink.jpg",
     images: ["assets/images/bag/Harlee%20Embroidered%20Shoulder%20Bag%20-%20Pink.jpg"],
@@ -317,7 +317,7 @@ const haezaProducts = [
   {
     id: "bg-003",
     name: "Classic Leather Tote",
-    price: 150.00,
+    price: 250000.00,
     category: "bags",
     image: "assets/images/bag/download%20(10).jpg",
     images: ["assets/images/bag/download%20(10).jpg"],
@@ -327,7 +327,7 @@ const haezaProducts = [
   {
     id: "bg-004",
     name: "Minimalist Crossbody",
-    price: 110.00,
+    price: 210000.00,
     category: "bags",
     image: "assets/images/bag/download%20(11).jpg",
     images: ["assets/images/bag/download%20(11).jpg"],
@@ -337,7 +337,7 @@ const haezaProducts = [
   {
     id: "bg-005",
     name: "Evening Clutch",
-    price: 195.00,
+    price: 295000.00,
     category: "bags",
     image: "assets/images/bag/download%20(12).jpg",
     images: ["assets/images/bag/download%20(12).jpg"],
@@ -349,7 +349,7 @@ const haezaProducts = [
   {
     id: "fw-001",
     name: "Movida Suede Ankle Boots",
-    price: 450.00,
+    price: 550000.00,
     category: "footwear",
     image: "assets/images/footware/CHRISTIAN%20LOUBOUTIN%20Movida%20130%20Suede%20Ankle%20Boots%20-%20Black.jpg",
     images: ["assets/images/footware/CHRISTIAN%20LOUBOUTIN%20Movida%20130%20Suede%20Ankle%20Boots%20-%20Black.jpg"],
@@ -359,7 +359,7 @@ const haezaProducts = [
   {
     id: "fw-002",
     name: "Kastel Denim Sneakers",
-    price: 120.00,
+    price: 220000.00,
     category: "footwear",
     image: "assets/images/footware/KASTEL%20-%20DENIM%20-%20DENIM%20_%208_5.jpg",
     images: ["assets/images/footware/KASTEL%20-%20DENIM%20-%20DENIM%20_%208_5.jpg"],
@@ -369,7 +369,7 @@ const haezaProducts = [
   {
     id: "fw-003",
     name: "Classic Leather Loafers",
-    price: 180.00,
+    price: 280000.00,
     category: "footwear",
     image: "assets/images/footware/download%20(13).jpg",
     images: ["assets/images/footware/download%20(13).jpg"],
@@ -379,7 +379,7 @@ const haezaProducts = [
   {
     id: "fw-004",
     name: "Elegant Stiletto Heels",
-    price: 210.00,
+    price: 310000.00,
     category: "footwear",
     image: "assets/images/footware/download%20(14).jpg",
     images: ["assets/images/footware/download%20(14).jpg"],
@@ -389,7 +389,7 @@ const haezaProducts = [
   {
     id: "fw-005",
     name: "Minimalist Sandals",
-    price: 150.00,
+    price: 250000.00,
     category: "footwear",
     image: "assets/images/footware/download%20(15).jpg",
     images: ["assets/images/footware/download%20(15).jpg"],
@@ -399,7 +399,7 @@ const haezaProducts = [
   {
     id: "fw-006",
     name: "Premium Combat Boots",
-    price: 320.00,
+    price: 420000.00,
     category: "footwear",
     image: "assets/images/footware/download%20(16).jpg",
     images: ["assets/images/footware/download%20(16).jpg"],
@@ -409,7 +409,7 @@ const haezaProducts = [
   {
     id: "fw-007",
     name: "Classic Beige Pumps",
-    price: 130.00,
+    price: 230000.00,
     category: "footwear",
     image: "assets/images/footware/download%20(17).jpg",
     images: ["assets/images/footware/download%20(17).jpg"],
@@ -419,7 +419,7 @@ const haezaProducts = [
   {
     id: "fw-008",
     name: "Chunky Heel Sandals",
-    price: 145.00,
+    price: 245000.00,
     category: "footwear",
     image: "assets/images/footware/download%20(18).jpg",
     images: ["assets/images/footware/download%20(18).jpg"],
@@ -429,7 +429,7 @@ const haezaProducts = [
   {
     id: "fw-009",
     name: "Platform Sneakers",
-    price: 110.00,
+    price: 210000.00,
     category: "footwear",
     image: "assets/images/footware/download%20(19).jpg",
     images: ["assets/images/footware/download%20(19).jpg"],
@@ -439,7 +439,7 @@ const haezaProducts = [
   {
     id: "fw-010",
     name: "Suede Ankle Booties",
-    price: 165.00,
+    price: 265000.00,
     category: "footwear",
     image: "assets/images/footware/download%20(20).jpg",
     images: ["assets/images/footware/download%20(20).jpg"],
@@ -449,7 +449,7 @@ const haezaProducts = [
   {
     id: "fw-011",
     name: "Strappy Pointed Heels",
-    price: 180.00,
+    price: 280000.00,
     category: "footwear",
     image: "assets/images/footware/download%20(21).jpg",
     images: ["assets/images/footware/download%20(21).jpg"],
@@ -459,7 +459,7 @@ const haezaProducts = [
   {
     id: "fw-012",
     name: "Twisted Bonds Stilettos",
-    price: 220.00,
+    price: 320000.00,
     category: "footwear",
     image: "assets/images/footware/twisted-bonds-stilettos.jpg",
     images: ["assets/images/footware/twisted-bonds-stilettos.jpg"],
@@ -471,7 +471,7 @@ const haezaProducts = [
   {
     id: "be-001",
     name: "High-Shine Lip Gloss",
-    price: 45.00,
+    price: 145000.00,
     category: "beauty",
     image: "assets/images/beauty/High-Shine%20Lip%20Gloss%20Aesthetic%20_%20Glossy%20Makeup%20Inspiration.jpg",
     images: ["assets/images/beauty/High-Shine%20Lip%20Gloss%20Aesthetic%20_%20Glossy%20Makeup%20Inspiration.jpg"],
@@ -481,7 +481,7 @@ const haezaProducts = [
   {
     id: "be-002",
     name: "Luminous Foundation",
-    price: 85.00,
+    price: 185000.00,
     category: "beauty",
     image: "assets/images/beauty/KMA%20-%20Daniel%20Lindh%20-%20CAIA%20Cosmetics.jpg",
     images: ["assets/images/beauty/KMA%20-%20Daniel%20Lindh%20-%20CAIA%20Cosmetics.jpg"],
@@ -491,7 +491,7 @@ const haezaProducts = [
   {
     id: "be-003",
     name: "Velvet Matte Lipstick",
-    price: 38.00,
+    price: 138000.00,
     category: "beauty",
     image: "assets/images/beauty/Lipstick%20Love%2017%20Colors%20That%20Will%20Transform%20Your%20Brown%20Skin.jpg",
     images: ["assets/images/beauty/Lipstick%20Love%2017%20Colors%20That%20Will%20Transform%20Your%20Brown%20Skin.jpg"],
@@ -501,7 +501,7 @@ const haezaProducts = [
   {
     id: "be-004",
     name: "Advanced Repair Serum",
-    price: 95.00,
+    price: 195000.00,
     category: "beauty",
     image: "assets/images/beauty/_The%20Serum%20That's%20Taking%20Over%20Every%20Skincare%20Shelf%20in%20the%20USA%20Right%20Now_.jpg",
     images: ["assets/images/beauty/_The%20Serum%20That's%20Taking%20Over%20Every%20Skincare%20Shelf%20in%20the%20USA%20Right%20Now_.jpg"],
@@ -511,7 +511,7 @@ const haezaProducts = [
   {
     id: "be-005",
     name: "Hydrating Face Mist",
-    price: 55.00,
+    price: 155000.00,
     category: "beauty",
     image: "assets/images/beauty/download%20(1).jpg",
     images: ["assets/images/beauty/download%20(1).jpg"],
@@ -521,7 +521,7 @@ const haezaProducts = [
   {
     id: "be-006",
     name: "Signature Perfume",
-    price: 120.00,
+    price: 220000.00,
     category: "beauty",
     image: "assets/images/beauty/download%20(7).jpg",
     images: ["assets/images/beauty/download%20(7).jpg"],
@@ -531,7 +531,7 @@ const haezaProducts = [
   {
     id: "be-007",
     name: "Greg Delves Photography Beauty Kit",
-    price: 110.00,
+    price: 210000.00,
     category: "beauty",
     image: "assets/images/beauty/Judy%20Casey%20-%20Photographers%20-%20Greg%20Delves%20%23photography.jpg",
     images: ["assets/images/beauty/Judy%20Casey%20-%20Photographers%20-%20Greg%20Delves%20%23photography.jpg"],
@@ -541,7 +541,7 @@ const haezaProducts = [
   {
     id: "be-008",
     name: "Honey Glaze Lip Tint",
-    price: 28.00,
+    price: 128000.00,
     category: "beauty",
     image: "assets/images/beauty/TinyWonder%20Honey%20Glaze%20Lip%20Tint%20With%20Formula.jpg",
     images: ["assets/images/beauty/TinyWonder%20Honey%20Glaze%20Lip%20Tint%20With%20Formula.jpg"],
@@ -551,7 +551,7 @@ const haezaProducts = [
   {
     id: "be-009",
     name: "Luxe Compact Powder",
-    price: 65.00,
+    price: 165000.00,
     category: "beauty",
     image: "assets/images/beauty/download%20(3).jpg",
     images: ["assets/images/beauty/download%20(3).jpg"],
@@ -561,7 +561,7 @@ const haezaProducts = [
   {
     id: "be-010",
     name: "Radiant Skin Cleanser",
-    price: 45.00,
+    price: 145000.00,
     category: "beauty",
     image: "assets/images/beauty/download%20(4).jpg",
     images: ["assets/images/beauty/download%20(4).jpg"],
@@ -571,7 +571,7 @@ const haezaProducts = [
   {
     id: "be-011",
     name: "Nourishing Night Cream",
-    price: 85.00,
+    price: 185000.00,
     category: "beauty",
     image: "assets/images/beauty/download%20(5).jpg",
     images: ["assets/images/beauty/download%20(5).jpg"],
@@ -581,7 +581,7 @@ const haezaProducts = [
   {
     id: "be-012",
     name: "Volumizing Mascara",
-    price: 32.00,
+    price: 132000.00,
     category: "beauty",
     image: "assets/images/beauty/download%20(6).jpg",
     images: ["assets/images/beauty/download%20(6).jpg"],
@@ -591,7 +591,7 @@ const haezaProducts = [
   {
     id: "be-013",
     name: "Botanical Toner",
-    price: 40.00,
+    price: 140000.00,
     category: "beauty",
     image: "assets/images/beauty/download%20(8).jpg",
     images: ["assets/images/beauty/download%20(8).jpg"],
@@ -601,7 +601,7 @@ const haezaProducts = [
   {
     id: "be-014",
     name: "Silky Body Lotion",
-    price: 50.00,
+    price: 150000.00,
     category: "beauty",
     image: "assets/images/beauty/download%20(9).jpg",
     images: ["assets/images/beauty/download%20(9).jpg"],
@@ -611,7 +611,7 @@ const haezaProducts = [
   {
     id: "be-015",
     name: "Signature Glow Kit",
-    price: 110.00,
+    price: 210000.00,
     category: "beauty",
     image: "assets/images/beauty/download.jpg",
     images: ["assets/images/beauty/download.jpg"],
@@ -621,7 +621,7 @@ const haezaProducts = [
   {
     id: "be-016",
     name: "Pink Pearl Nail Polish",
-    price: 24.00,
+    price: 124000.00,
     category: "beauty",
     image: "assets/images/beauty/pink%20nail%20polish.jpg",
     images: ["assets/images/beauty/pink%20nail%20polish.jpg"],
@@ -631,7 +631,7 @@ const haezaProducts = [
   {
     id: "be-017",
     name: "Marketplace Infographics Kit 1",
-    price: 15.00,
+    price: 115000.00,
     category: "beauty",
     image: "assets/images/beauty/%D0%98%D0%BD%D1%84%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D0%BA%D0%B0%20%D0%B4%D0%BB%D1%8F%20%D0%BC%D0%B0%D1%80%D0%BA%D0%B5%D1%82%D0%BF%D0%BB%D0%B5%D0%B9%D1%81%D0%BE%D0%B2.jpg",
     images: ["assets/images/beauty/%D0%98%D0%BD%D1%84%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D0%BA%D0%B0%20%D0%B4%D0%BB%D1%8F%20%D0%BC%D0%B0%D1%80%D0%BA%D0%B5%D1%82%D0%BF%D0%BB%D0%B5%D0%B9%D1%81%D0%BE%D0%B2.jpg"],
@@ -641,7 +641,7 @@ const haezaProducts = [
   {
     id: "be-018",
     name: "Marketplace Infographics Kit 2",
-    price: 15.00,
+    price: 115000.00,
     category: "beauty",
     image: "assets/images/beauty/%D0%B8%D0%BD%D1%84%D0%BE%D0%B3%D1%80%D0%B0%D0%B8%D0%BA%D0%B0%20%D0%B4%D0%BB%D1%8F%20%D0%BC%D0%B0%D1%80%D0%BA%D0%B5%D1%82%D0%BF%D0%BB%D0%B5%D0%B9%D1%81%D0%BE%D0%B2_.jpg",
     images: ["assets/images/beauty/%D0%B8%D0%BD%D1%84%D0%BE%D0%B3%D1%80%D0%B0%D0%B8%D0%BA%D0%B0%20%D0%B4%D0%BB%D1%8F%20%D0%BC%D0%B0%D1%80%D0%BA%D0%B5%D1%82%D0%BF%D0%BB%D0%B5%D0%B9%D1%81%D0%BE%D0%B2_.jpg"],
@@ -653,7 +653,7 @@ const haezaProducts = [
   {
     id: "pf-001",
     name: "Chanel Le Vernis Aesthetic",
-    price: 150.00,
+    price: 250000.00,
     category: "perfume",
     image: "assets/images/perfume/Editorial%20beauty%20campaign%20_%20Chanel%20Le%20Vernis%20with%20cherry%20red%20spill.jpg",
     images: ["assets/images/perfume/Editorial%20beauty%20campaign%20_%20Chanel%20Le%20Vernis%20with%20cherry%20red%20spill.jpg"],
@@ -663,7 +663,7 @@ const haezaProducts = [
   {
     id: "pf-002",
     name: "Louis Vuitton Fleur du Désert",
-    price: 320.00,
+    price: 420000.00,
     category: "perfume",
     image: "assets/images/perfume/Louis%20Vuitton%20Fleur%20du%20D%C3%A9sert.jpg",
     images: ["assets/images/perfume/Louis%20Vuitton%20Fleur%20du%20D%C3%A9sert.jpg"],
@@ -673,7 +673,7 @@ const haezaProducts = [
   {
     id: "pf-003",
     name: "Midnight Elegance Perfume",
-    price: 110.00,
+    price: 210000.00,
     category: "perfume",
     image: "assets/images/perfume/download%20(2).jpg",
     images: ["assets/images/perfume/download%20(2).jpg"],
@@ -683,7 +683,7 @@ const haezaProducts = [
   {
     id: "pf-004",
     name: "Signature Everyday Scent",
-    price: 95.00,
+    price: 195000.00,
     category: "perfume",
     image: "assets/images/perfume/download.jpg",
     images: ["assets/images/perfume/download.jpg"],
@@ -693,7 +693,7 @@ const haezaProducts = [
   {
     id: "pf-005",
     name: "Golden Sparkle Perfume",
-    price: 135.00,
+    price: 235000.00,
     category: "perfume",
     image: "assets/images/perfume/%D0%9F%D0%BE%D0%B4%D0%BF%D0%B8%D1%88%D0%B8%D1%81%D1%8C%20%E2%80%94%20%D0%BF%D0%BE%D0%BA%D0%B0%D0%B7%D1%8B%D0%B2%D0%B0%D1%8E%20%D0%B8%D0%BD%D1%84%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D0%BA%D1%83%20%D0%B4%D0%BB%D1%8F%20%D0%BC%D0%B0%D1%80%D0%BA%D0%B5%D1%82%D0%BF%D0%BB%D0%B5%D0%B9%D1%81%D0%BE%D0%B2%20%E2%9C%A8.jpg",
     images: ["assets/images/perfume/%D0%9F%D0%BE%D0%B4%D0%BF%D0%B8%D1%88%D0%B8%D1%81%D1%8C%20%E2%80%94%20%D0%BF%D0%BE%D0%BA%D0%B0%D0%B7%D1%8B%D0%B2%D0%B0%D1%8E%20%D0%B8%D0%BD%D1%84%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D0%BA%D1%83%20%D0%B4%D0%BB%D1%8F%20%D0%BC%D0%B0%D1%80%D0%BA%D0%B5%D1%82%D0%BF%D0%BB%D0%B5%D0%B9%D1%81%D0%BE%D0%B2%20%E2%9C%A8.jpg"],
@@ -703,7 +703,7 @@ const haezaProducts = [
   {
     id: "pf-006",
     name: "AI Vision Concept Perfume",
-    price: 80.00,
+    price: 180000.00,
     category: "perfume",
     image: "assets/images/perfume/%D0%A1%D1%8A%D0%B5%D0%BC%D0%BA%D0%B0%20%D0%B4%D0%BB%D1%8F%20%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%BE%D0%B2%20%D0%BC%D0%B0%D1%80%D0%BA%D0%B5%D1%82%D0%BF%D0%BB%D0%B5%D0%B9%D1%81%D0%BE%D0%B2%20%D1%87%D0%B5%D1%80%D0%B5%D0%B7%20%D0%98%D0%98_%20%D0%9D%D0%B5%D0%B9%D1%80%D0%BE%20%D1%84%D0%BE%D1%82%D0%BE%D1%81%D0%B5%D1%81%D1%81%D0%B8%D1%8F%20%D0%B4%D0%BB%D1%8F%20%D0%BF%D0%B0%D1%80%D1%84%D1%8E%D0%BC%D0%B0.jpg",
     images: ["assets/images/perfume/%D0%A1%D1%8A%D0%B5%D0%BC%D0%BA%D0%B0%20%D0%B4%D0%BB%D1%8F%20%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%BE%D0%B2%20%D0%BC%D0%B0%D1%80%D0%BA%D0%B5%D1%82%D0%BF%D0%BB%D0%B5%D0%B9%D1%81%D0%BE%D0%B2%20%D1%87%D0%B5%D1%80%D0%B5%D0%B7%20%D0%98%D0%98_%20%D0%9D%D0%B5%D0%B9%D1%80%D0%BE%20%D1%84%D0%BE%D1%82%D0%BE%D1%81%D0%B5%D1%81%D1%81%D0%B8%D1%8F%20%D0%B4%D0%BB%D1%8F%20%D0%BF%D0%B0%D1%80%D1%84%D1%8E%D0%BC%D0%B0.jpg"],
