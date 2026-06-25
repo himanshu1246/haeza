@@ -4,13 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Beauty | Haeza</title>
-  <meta name="description" content="Shop the Haeza beauty collection. Premium makeup, skincare, and fragrances.">
-  <link rel="canonical" href="https://haeza.vercel.app/beauty.html">
+  <title>Size Guide | Haeza</title>
+  <meta name="description" content="Haeza Size Guide. Find the perfect fit for your clothes and footwear.">
+  <link rel="canonical" href="https://haeza.vercel.app/sizeguide.html">
   
   <!-- Open Graph / Twitter -->
-  <meta property="og:title" content="Beauty | Haeza">
-  <meta property="og:description" content="Shop the Haeza beauty collection. Premium makeup, skincare, and fragrances.">
+  <meta property="og:title" content="Size Guide | Haeza">
+  <meta property="og:description" content="The Haeza brand story: discover our founding mission, our commitment to ethical manufacturing, and what makes our premium fashion different.">
   <meta property="og:image" content="https://haeza.vercel.app/assets/images/model/Shin%20Ryujin.jpg">
   <meta property="og:type" content="website">
   <meta name="twitter:card" content="summary_large_image">
@@ -26,12 +26,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="css/global.css">
-  <link rel="stylesheet" href="css/category.css">
 
-  <!-- GSAP Library via CDN -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer></script>
-  
   <!-- JS -->
   <script src="js/products.js" defer></script>
   <script src="js/cart.js" defer></script>
@@ -132,38 +127,107 @@
 
   <main class="main-content">
     
-    <div class="page-header">
-      <div class="container">
-        <h1 class="page-title">Beauty</h1>
-        <div class="breadcrumb">Home / Beauty</div>
-      </div>
-    </div>
 
-    <section class="section">
-      <div class="container">
+    
+    <style>
+      .size-guide-section {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 0 var(--spacing-md);
+      }
+      .size-table-wrapper {
+        overflow-x: auto;
+        margin-bottom: var(--spacing-xl);
+      }
+      .size-table {
+        width: 100%;
+        border-collapse: collapse;
+        min-width: 600px;
+      }
+      .size-table th, .size-table td {
+        border: 1px solid #e0e0e0;
+        padding: var(--spacing-md);
+        text-align: center;
+      }
+      .size-table th {
+        background-color: #f9f9f9;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        font-size: 0.85rem;
+      }
+      .size-table td {
+        color: var(--color-secondary);
+      }
+      .size-guide-title {
+        font-size: 1.5rem;
+        margin-bottom: var(--spacing-md);
+        font-weight: 400;
+        border-bottom: 1px solid var(--color-border);
+        padding-bottom: 0.5rem;
+      }
+    </style>
+
+
+    <div class="page-header" style="padding-top: var(--spacing-xl); padding-bottom: var(--spacing-lg); text-align: center;">
+
+    <section class="section" style="padding-bottom: var(--spacing-xxl);">
+      <div class="size-guide-section">
         
-        <div class="toolbar">
-          <div class="sort-control">
-            <label for="sortProducts">Sort By:</label>
-            <select id="sortProducts">
-              <option value="default">Featured</option>
-              <option value="newest">Newest</option>
-              <option value="oldest">Oldest</option>
-              <option value="price-low-high">Price: Low to High</option>
-              <option value="price-high-low">Price: High to Low</option>
-            </select>
-          </div>
+        <h2 class="size-guide-title">Dresses & Tops</h2>
+        <div class="size-table-wrapper">
+          <table class="size-table">
+            <thead>
+              <tr>
+                <th>Size</th>
+                <th>Bust (cm)</th>
+                <th>Bust (in)</th>
+                <th>Waist (cm)</th>
+                <th>Waist (in)</th>
+                <th>Hip (cm)</th>
+                <th>Hip (in)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>XS</td><td>82</td><td>32</td><td>64</td><td>25</td><td>90</td><td>35</td></tr>
+              <tr><td>S</td><td>86</td><td>34</td><td>68</td><td>27</td><td>94</td><td>37</td></tr>
+              <tr><td>M</td><td>90</td><td>35.5</td><td>72</td><td>28.5</td><td>98</td><td>38.5</td></tr>
+              <tr><td>L</td><td>96</td><td>38</td><td>78</td><td>31</td><td>104</td><td>41</td></tr>
+              <tr><td>XL</td><td>102</td><td>40</td><td>84</td><td>33</td><td>110</td><td>43.5</td></tr>
+              <tr><td>XXL</td><td>108</td><td>42.5</td><td>90</td><td>35.5</td><td>116</td><td>45.5</td></tr>
+            </tbody>
+          </table>
         </div>
 
-        <div class="product-grid" id="dynamicProductGrid" data-category="beauty">
-          <!-- Products injected by js/main.js -->
+        <h2 class="size-guide-title">Footwear</h2>
+        <div class="size-table-wrapper">
+          <table class="size-table">
+            <thead>
+              <tr>
+                <th>IN / UK Size</th>
+                <th>US Size</th>
+                <th>EU Size</th>
+                <th>Foot Length (cm)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>3</td><td>5</td><td>36</td><td>22.5</td></tr>
+              <tr><td>4</td><td>6</td><td>37</td><td>23.5</td></tr>
+              <tr><td>5</td><td>7</td><td>38</td><td>24.1</td></tr>
+              <tr><td>6</td><td>8</td><td>39</td><td>25.1</td></tr>
+              <tr><td>7</td><td>9</td><td>40</td><td>25.8</td></tr>
+              <tr><td>8</td><td>10</td><td>41</td><td>26.7</td></tr>
+              <tr><td>9</td><td>11</td><td>42</td><td>27.3</td></tr>
+            </tbody>
+          </table>
         </div>
+
+        <p style="text-align: center; color: var(--color-secondary); margin-top: 2rem;">
+          If you need further assistance with sizing, please don't hesitate to <a href="contact.html" style="color: var(--color-text); text-decoration: underline;">contact us</a>.
+        </p>
       </div>
     </section>
 
-  </main>
-
-  <!-- Footer -->
   <footer class="footer">
     <div class="container">
       <div class="footer-content">
@@ -175,7 +239,6 @@
           <a href="shoes.html">Shoes</a>
           <a href="beauty.html">Beauty</a>
           <a href="perfume.html">Perfume</a>
-          <a href="sizeguide.html">Size Guide</a>
           <a href="about.html">About Us</a>
           <a href="contact.html">Contact Us</a>
           <a href="privacy.html">Privacy Policy</a>
